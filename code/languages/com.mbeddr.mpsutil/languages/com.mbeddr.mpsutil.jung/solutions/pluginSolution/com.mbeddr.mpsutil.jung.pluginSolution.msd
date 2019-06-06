@@ -4,28 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib" />
-    </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/collections-generic-4.01.jar" />
-    <stubModelEntry path="${module}/lib/colt-1.2.0.jar" />
-    <stubModelEntry path="${module}/lib/concurrent-1.3.4.jar" />
-    <stubModelEntry path="${module}/lib/j3d-core-1.3.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-3d-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-3d-demos-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-algorithms-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-api-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-graph-impl-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-io-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-jai-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-jai-samples-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-samples-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/jung-visualization-2.0.1.jar" />
-    <stubModelEntry path="${module}/lib/vecmath-1.3.1.jar" />
-    <stubModelEntry path="${module}/lib/wstx-asl-3.2.6.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
@@ -36,6 +15,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</dependency>
+    <dependency reexport="true">a87a3dd9-70ef-44b2-8564-d62eacb82f99(com.mbeddr.mpsutil.jung.stubs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
@@ -64,6 +44,7 @@
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)" version="0" />
     <module reference="1338ba73-5059-479b-a929-de86597a62b8(com.mbeddr.mpsutil.jung.pluginSolution)" version="0" />
+    <module reference="a87a3dd9-70ef-44b2-8564-d62eacb82f99(com.mbeddr.mpsutil.jung.stubs)" version="0" />
     <module reference="5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>

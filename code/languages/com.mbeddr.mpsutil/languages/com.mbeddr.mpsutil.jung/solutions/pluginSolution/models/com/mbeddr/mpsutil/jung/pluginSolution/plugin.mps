@@ -19,15 +19,9 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" />
-    <import index="kvwk" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.graph(com.mbeddr.mpsutil.jung.pluginSolution/)" />
-    <import index="d6lm" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.algorithms.layout(com.mbeddr.mpsutil.jung.pluginSolution/)" />
-    <import index="ao2i" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization(com.mbeddr.mpsutil.jung.pluginSolution/)" />
     <import index="jkny" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.wm(MPS.IDEA/)" />
     <import index="10jo" ref="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62/r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung/com.mbeddr.mpsutil.jung.structure)" />
     <import index="ln2k" ref="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62/r:2b6ea9fa-3d7f-4d82-86fe-4fd697fec5a2(com.mbeddr.mpsutil.jung/com.mbeddr.mpsutil.jung.behavior)" />
-    <import index="r25o" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.decorators(com.mbeddr.mpsutil.jung.pluginSolution/)" />
-    <import index="ng30" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.graph.util(com.mbeddr.mpsutil.jung.pluginSolution/)" />
-    <import index="mdvt" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.control(com.mbeddr.mpsutil.jung.pluginSolution/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
@@ -37,12 +31,18 @@
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
-    <import index="fyn1" ref="1338ba73-5059-479b-a929-de86597a62b8/java:org.apache.commons.collections15(com.mbeddr.mpsutil.jung.pluginSolution/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
-    <import index="2kct" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.picking(com.mbeddr.mpsutil.jung.pluginSolution/)" />
-    <import index="rtrw" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.renderers(com.mbeddr.mpsutil.jung.pluginSolution/)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
+    <import index="kvwk" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.graph(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="ao2i" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="d6lm" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.algorithms.layout(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="rtrw" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization.renderers(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="mdvt" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization.control(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="fyn1" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:org.apache.commons.collections15(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="2kct" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization.picking(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="ng30" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.graph.util(com.mbeddr.mpsutil.jung.stubs/)" />
+    <import index="r25o" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization.decorators(com.mbeddr.mpsutil.jung.stubs/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1486,7 +1486,7 @@
               <node concept="37vLTw" id="3r5oqoHg4VK" role="2Oq$k0">
                 <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
               </node>
-              <node concept="liA8E" id="3r5oqoHg4VL" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4dJhP" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getPickedVertexState()" resolve="getPickedVertexState" />
               </node>
             </node>
@@ -1506,7 +1506,7 @@
               <node concept="37vLTw" id="3r5oqoHfq7X" role="2Oq$k0">
                 <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
               </node>
-              <node concept="liA8E" id="3r5oqoHfq7Y" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4cNkw" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getPickedEdgeState()" resolve="getPickedEdgeState" />
               </node>
             </node>
@@ -1522,7 +1522,7 @@
                 <node concept="37vLTw" id="7P$SxBYKdEf" role="2Oq$k0">
                   <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
                 </node>
-                <node concept="liA8E" id="7P$SxBYKdEg" role="2OqNvi">
+                <node concept="liA8E" id="193Tld4d4x7" role="2OqNvi">
                   <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                 </node>
               </node>
@@ -1532,8 +1532,8 @@
                   <node concept="YeOm9" id="4sWN29l2QTS" role="2ShVmc">
                     <node concept="1Y3b0j" id="4sWN29l2QTV" role="YeSDq">
                       <property role="2bfB8j" value="true" />
-                      <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                      <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                       <node concept="3Tm1VV" id="4sWN29l2QTW" role="1B3o_S" />
                       <node concept="3clFb_" id="4sWN29l2QTX" role="jymVt">
                         <property role="1EzhhJ" value="false" />
@@ -1692,7 +1692,7 @@
               <node concept="37vLTw" id="49Pc$REaIeg" role="2Oq$k0">
                 <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
               </node>
-              <node concept="liA8E" id="49Pc$REaIeh" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4ceNv" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -1702,8 +1702,8 @@
                 <node concept="YeOm9" id="49Pc$REbwMP" role="2ShVmc">
                   <node concept="1Y3b0j" id="49Pc$REbwMS" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="rtrw:~VertexLabelRenderer" resolve="VertexLabelRenderer" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="rtrw:~VertexLabelRenderer" resolve="VertexLabelRenderer" />
                     <node concept="3Tm1VV" id="49Pc$REbwMT" role="1B3o_S" />
                     <node concept="3clFb_" id="49Pc$REbwMU" role="jymVt">
                       <property role="1EzhhJ" value="false" />
@@ -1979,7 +1979,7 @@
               <node concept="37vLTw" id="3XsK4wOYOhU" role="2Oq$k0">
                 <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
               </node>
-              <node concept="liA8E" id="3XsK4wOYVVb" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4cvEA" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -2119,7 +2119,7 @@
                 <node concept="37vLTw" id="3ohuQccti3A" role="2Oq$k0">
                   <ref role="3cqZAo" node="7P$SxBYKdE5" resolve="vv" />
                 </node>
-                <node concept="liA8E" id="3ohuQcctqqE" role="2OqNvi">
+                <node concept="liA8E" id="193Tld4dtD0" role="2OqNvi">
                   <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                 </node>
               </node>
@@ -3813,12 +3813,12 @@
                   <ref role="3cqZAo" node="78j9QLkcieH" resolve="jungGraph" />
                 </node>
                 <node concept="2ShNRf" id="78j9QLkcieR" role="37vLTx">
-                  <node concept="1pGfFk" id="78j9QLkcieS" role="2ShVmc">
+                  <node concept="1pGfFk" id="193Tld4bl2W" role="2ShVmc">
                     <ref role="37wK5l" to="kvwk:~DelegateForest.&lt;init&gt;()" resolve="DelegateForest" />
-                    <node concept="3uibUv" id="78j9QLkcieT" role="1pMfVU">
+                    <node concept="3uibUv" id="193Tld4bl2X" role="1pMfVU">
                       <ref role="3uigEE" to="ln2k:5yCuRHcav6I" resolve="JNNode" />
                     </node>
-                    <node concept="3uibUv" id="78j9QLkcieU" role="1pMfVU">
+                    <node concept="3uibUv" id="193Tld4bl2Y" role="1pMfVU">
                       <ref role="3uigEE" to="ln2k:5yCuRHcavmW" resolve="JNEdge" />
                     </node>
                   </node>
@@ -3839,12 +3839,12 @@
               <node concept="3clFbF" id="78j9QLkcif0" role="3cqZAp">
                 <node concept="37vLTI" id="78j9QLkcif1" role="3clFbG">
                   <node concept="2ShNRf" id="78j9QLkcif2" role="37vLTx">
-                    <node concept="1pGfFk" id="78j9QLkcif3" role="2ShVmc">
+                    <node concept="1pGfFk" id="193Tld4bl36" role="2ShVmc">
                       <ref role="37wK5l" to="kvwk:~SparseGraph.&lt;init&gt;()" resolve="SparseGraph" />
-                      <node concept="3uibUv" id="78j9QLkcif4" role="1pMfVU">
+                      <node concept="3uibUv" id="193Tld4bl37" role="1pMfVU">
                         <ref role="3uigEE" to="ln2k:5yCuRHcav6I" resolve="JNNode" />
                       </node>
-                      <node concept="3uibUv" id="78j9QLkcif5" role="1pMfVU">
+                      <node concept="3uibUv" id="193Tld4bl38" role="1pMfVU">
                         <ref role="3uigEE" to="ln2k:5yCuRHcavmW" resolve="JNEdge" />
                       </node>
                     </node>
@@ -3984,7 +3984,7 @@
                             <node concept="37vLTw" id="1P6FB4bstjD" role="37wK5m">
                               <ref role="3cqZAo" node="1P6FB4bstj_" resolve="vdst" />
                             </node>
-                            <node concept="Rm8GO" id="78j9QLkcifz" role="37wK5m">
+                            <node concept="Rm8GO" id="193Tld4d4x$" role="37wK5m">
                               <ref role="Rm8GQ" to="ng30:~EdgeType.DIRECTED" resolve="DIRECTED" />
                               <ref role="1Px2BO" to="ng30:~EdgeType" resolve="EdgeType" />
                             </node>
@@ -4018,7 +4018,7 @@
                               <node concept="37vLTw" id="1P6FB4bstjE" role="37wK5m">
                                 <ref role="3cqZAo" node="1P6FB4bstj_" resolve="vdst" />
                               </node>
-                              <node concept="Rm8GO" id="78j9QLkcifO" role="37wK5m">
+                              <node concept="Rm8GO" id="193Tld4dtIK" role="37wK5m">
                                 <ref role="Rm8GQ" to="ng30:~EdgeType.UNDIRECTED" resolve="UNDIRECTED" />
                                 <ref role="1Px2BO" to="ng30:~EdgeType" resolve="EdgeType" />
                               </node>
@@ -4288,8 +4288,8 @@
                               <node concept="YeOm9" id="78j9QLkcxYO" role="2ShVmc">
                                 <node concept="1Y3b0j" id="78j9QLkcxYP" role="YeSDq">
                                   <property role="2bfB8j" value="true" />
-                                  <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                  <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                                   <node concept="3Tm1VV" id="78j9QLkcxYQ" role="1B3o_S" />
                                   <node concept="3clFb_" id="78j9QLkcxYR" role="jymVt">
                                     <property role="1EzhhJ" value="false" />
@@ -4561,8 +4561,8 @@
                 <node concept="YeOm9" id="78j9QLkdctv" role="2ShVmc">
                   <node concept="1Y3b0j" id="78j9QLkdctw" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                     <node concept="3Tm1VV" id="78j9QLkdctx" role="1B3o_S" />
                     <node concept="3clFb_" id="78j9QLkdcty" role="jymVt">
                       <property role="1EzhhJ" value="false" />
@@ -4706,13 +4706,13 @@
               <ref role="3cqZAo" node="78j9QLkdcu9" resolve="vv" />
             </node>
             <node concept="liA8E" id="78j9QLkdctP" role="2OqNvi">
-              <ref role="37wK5l" to="ao2i:~VisualizationViewer.setEdgeToolTipTransformer(org.apache.commons.collections15.Transformer)" resolve="setEdgeToolTipTransformer" />
+              <ref role="37wK5l" to="ao2i:~VisualizationViewer.setVertexToolTipTransformer(org.apache.commons.collections15.Transformer)" resolve="setVertexToolTipTransformer" />
               <node concept="2ShNRf" id="78j9QLkdctQ" role="37wK5m">
                 <node concept="YeOm9" id="78j9QLkdctR" role="2ShVmc">
                   <node concept="1Y3b0j" id="78j9QLkdctS" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                     <node concept="3Tm1VV" id="78j9QLkdctT" role="1B3o_S" />
                     <node concept="3clFb_" id="78j9QLkdctU" role="jymVt">
                       <property role="1EzhhJ" value="false" />
@@ -5019,7 +5019,7 @@
                   <node concept="37vLTw" id="78j9QLkdioq" role="2Oq$k0">
                     <ref role="3cqZAo" node="78j9QLkdion" resolve="vv" />
                   </node>
-                  <node concept="liA8E" id="78j9QLkdimX" role="2OqNvi">
+                  <node concept="liA8E" id="193Tld4cO0m" role="2OqNvi">
                     <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                   </node>
                 </node>
@@ -5167,7 +5167,7 @@
                     <node concept="37vLTw" id="78j9QLkdiop" role="2Oq$k0">
                       <ref role="3cqZAo" node="78j9QLkdion" resolve="vv" />
                     </node>
-                    <node concept="liA8E" id="78j9QLkdinX" role="2OqNvi">
+                    <node concept="liA8E" id="193Tld4d4QG" role="2OqNvi">
                       <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                     </node>
                   </node>
@@ -5382,7 +5382,7 @@
                   <node concept="37vLTw" id="2$2HGUevJM2" role="2Oq$k0">
                     <ref role="3cqZAo" node="2$2HGUevJLJ" resolve="vv" />
                   </node>
-                  <node concept="liA8E" id="2$2HGUevJM3" role="2OqNvi">
+                  <node concept="liA8E" id="193Tld4d99a" role="2OqNvi">
                     <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                   </node>
                 </node>
@@ -5392,8 +5392,8 @@
                     <node concept="YeOm9" id="2$2HGUewsIH" role="2ShVmc">
                       <node concept="1Y3b0j" id="2$2HGUewsIK" role="YeSDq">
                         <property role="2bfB8j" value="true" />
-                        <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                         <node concept="3Tm1VV" id="2$2HGUewsIL" role="1B3o_S" />
                         <node concept="3clFb_" id="2$2HGUewsIM" role="jymVt">
                           <property role="1EzhhJ" value="false" />
@@ -5444,7 +5444,7 @@
                                           <node concept="37vLTw" id="2$2HGUeyfIL" role="2Oq$k0">
                                             <ref role="3cqZAo" node="2$2HGUewsIQ" resolve="vtx" />
                                           </node>
-                                          <node concept="2OwXpG" id="2$2HGUeyfIM" role="2OqNvi">
+                                          <node concept="2OwXpG" id="193Tld4dcQj" role="2OqNvi">
                                             <ref role="2Oxat5" to="ng30:~Context.element" resolve="element" />
                                           </node>
                                         </node>
@@ -5763,7 +5763,7 @@
                   <node concept="37vLTw" id="1Hrx$eB2hUC" role="2Oq$k0">
                     <ref role="3cqZAo" node="78j9QLkdKpp" resolve="vv" />
                   </node>
-                  <node concept="liA8E" id="1Hrx$eB2hUD" role="2OqNvi">
+                  <node concept="liA8E" id="193Tld4bQ1J" role="2OqNvi">
                     <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                   </node>
                 </node>
@@ -6003,7 +6003,7 @@
                   <node concept="37vLTw" id="78j9QLkdKpw" role="2Oq$k0">
                     <ref role="3cqZAo" node="78j9QLkdKpp" resolve="vv" />
                   </node>
-                  <node concept="liA8E" id="78j9QLkdKpc" role="2OqNvi">
+                  <node concept="liA8E" id="193Tld4d8p8" role="2OqNvi">
                     <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
                   </node>
                 </node>
@@ -6134,7 +6134,7 @@
               <node concept="37vLTw" id="61tT5XhX$7Z" role="2Oq$k0">
                 <ref role="3cqZAo" node="78j9QLkdKpp" resolve="vv" />
               </node>
-              <node concept="liA8E" id="61tT5XhX$80" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4d6Q8" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -6316,7 +6316,7 @@
               <node concept="37vLTw" id="78j9QLkdW7s" role="2Oq$k0">
                 <ref role="3cqZAo" node="78j9QLkdW7k" resolve="vv" />
               </node>
-              <node concept="liA8E" id="78j9QLkdW5O" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4cw46" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -6629,8 +6629,8 @@
               <node concept="YeOm9" id="78j9QLke6$u" role="2ShVmc">
                 <node concept="1Y3b0j" id="78j9QLke6$v" role="YeSDq">
                   <property role="2bfB8j" value="true" />
-                  <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <ref role="1Y3XeK" to="fyn1:~Transformer" resolve="Transformer" />
                   <node concept="3Tm1VV" id="78j9QLke6$w" role="1B3o_S" />
                   <node concept="3uibUv" id="78j9QLke6$x" role="2Ghqu4">
                     <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
@@ -6788,7 +6788,7 @@
               <node concept="37vLTw" id="78j9QLke6_D" role="2Oq$k0">
                 <ref role="3cqZAo" node="78j9QLke6_$" resolve="vv" />
               </node>
-              <node concept="liA8E" id="78j9QLke6_e" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4d88r" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -6806,7 +6806,7 @@
               <node concept="37vLTw" id="78j9QLke6_E" role="2Oq$k0">
                 <ref role="3cqZAo" node="78j9QLke6_$" resolve="vv" />
               </node>
-              <node concept="liA8E" id="78j9QLke6_l" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4d5fU" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -6824,7 +6824,7 @@
               <node concept="37vLTw" id="78j9QLke6_F" role="2Oq$k0">
                 <ref role="3cqZAo" node="78j9QLke6_$" resolve="vv" />
               </node>
-              <node concept="liA8E" id="78j9QLke6_s" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4d5O2" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -7066,11 +7066,11 @@
         <node concept="3cpWs8" id="78j9QLkellN" role="3cqZAp">
           <node concept="3cpWsn" id="78j9QLkellO" role="3cpWs9">
             <property role="TrG5h" value="pgm" />
-            <node concept="3uibUv" id="78j9QLkellP" role="1tU5fm">
+            <node concept="3uibUv" id="193Tld4cvIX" role="1tU5fm">
               <ref role="3uigEE" to="mdvt:~PluggableGraphMouse" resolve="PluggableGraphMouse" />
             </node>
             <node concept="2ShNRf" id="78j9QLkellQ" role="33vP2m">
-              <node concept="1pGfFk" id="78j9QLkellR" role="2ShVmc">
+              <node concept="1pGfFk" id="193Tld4bl2U" role="2ShVmc">
                 <ref role="37wK5l" to="mdvt:~PluggableGraphMouse.&lt;init&gt;()" resolve="PluggableGraphMouse" />
               </node>
             </node>
@@ -7085,7 +7085,7 @@
             <node concept="liA8E" id="78j9QLkellV" role="2OqNvi">
               <ref role="37wK5l" to="mdvt:~PluggableGraphMouse.add(edu.uci.ics.jung.visualization.control.GraphMousePlugin)" resolve="add" />
               <node concept="2ShNRf" id="78j9QLkellW" role="37wK5m">
-                <node concept="1pGfFk" id="78j9QLkellX" role="2ShVmc">
+                <node concept="1pGfFk" id="193Tld4bl32" role="2ShVmc">
                   <ref role="37wK5l" to="mdvt:~TranslatingGraphMousePlugin.&lt;init&gt;()" resolve="TranslatingGraphMousePlugin" />
                 </node>
               </node>
@@ -7103,7 +7103,7 @@
                 <node concept="1pGfFk" id="78j9QLkelm3" role="2ShVmc">
                   <ref role="37wK5l" to="mdvt:~ScalingGraphMousePlugin.&lt;init&gt;(edu.uci.ics.jung.visualization.control.ScalingControl,int,float,float)" resolve="ScalingGraphMousePlugin" />
                   <node concept="2ShNRf" id="78j9QLkelm4" role="37wK5m">
-                    <node concept="1pGfFk" id="78j9QLkelm5" role="2ShVmc">
+                    <node concept="1pGfFk" id="193Tld4bl34" role="2ShVmc">
                       <ref role="37wK5l" to="mdvt:~AbsoluteCrossoverScalingControl.&lt;init&gt;()" resolve="AbsoluteCrossoverScalingControl" />
                     </node>
                   </node>
@@ -7216,7 +7216,7 @@
                                     <node concept="37vLTw" id="78j9QLkelq_" role="2Oq$k0">
                                       <ref role="3cqZAo" node="78j9QLkelqo" resolve="edgePicker" />
                                     </node>
-                                    <node concept="liA8E" id="78j9QLkelmP" role="2OqNvi">
+                                    <node concept="liA8E" id="193Tld4d8Nu" role="2OqNvi">
                                       <ref role="37wK5l" to="2kct:~PickedState.clear()" resolve="clear" />
                                     </node>
                                   </node>
@@ -7226,7 +7226,7 @@
                                     <node concept="37vLTw" id="78j9QLkelqy" role="2Oq$k0">
                                       <ref role="3cqZAo" node="78j9QLkelqr" resolve="vertexPicker" />
                                     </node>
-                                    <node concept="liA8E" id="78j9QLkelmT" role="2OqNvi">
+                                    <node concept="liA8E" id="193Tld4cx5Z" role="2OqNvi">
                                       <ref role="37wK5l" to="2kct:~PickedState.clear()" resolve="clear" />
                                     </node>
                                   </node>
@@ -8981,7 +8981,7 @@
               <node concept="37vLTw" id="1hdlKPe8QMp" role="2Oq$k0">
                 <ref role="3cqZAo" node="1hdlKPe8QMn" resolve="vv" />
               </node>
-              <node concept="liA8E" id="1hdlKPe8QL9" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4d76P" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -8991,8 +8991,8 @@
                 <node concept="YeOm9" id="1hdlKPe8QLc" role="2ShVmc">
                   <node concept="1Y3b0j" id="1hdlKPe8QLd" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="fyn1:~Predicate" resolve="Predicate" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="fyn1:~Predicate" resolve="Predicate" />
                     <node concept="3Tm1VV" id="1hdlKPe8QLe" role="1B3o_S" />
                     <node concept="3clFb_" id="1hdlKPe8QLf" role="jymVt">
                       <property role="1EzhhJ" value="false" />
@@ -9048,7 +9048,7 @@
                                   <node concept="37vLTw" id="1hdlKPe8QLv" role="2Oq$k0">
                                     <ref role="3cqZAo" node="1hdlKPe8QLi" resolve="object" />
                                   </node>
-                                  <node concept="2OwXpG" id="1hdlKPe8QLw" role="2OqNvi">
+                                  <node concept="2OwXpG" id="193Tld4cyJj" role="2OqNvi">
                                     <ref role="2Oxat5" to="ng30:~Context.element" resolve="element" />
                                   </node>
                                 </node>
@@ -9106,7 +9106,7 @@
               <node concept="37vLTw" id="1hdlKPe8QMq" role="2Oq$k0">
                 <ref role="3cqZAo" node="1hdlKPe8QMn" resolve="vv" />
               </node>
-              <node concept="liA8E" id="1hdlKPe8QLM" role="2OqNvi">
+              <node concept="liA8E" id="193Tld4dbtd" role="2OqNvi">
                 <ref role="37wK5l" to="ao2i:~BasicVisualizationServer.getRenderContext()" resolve="getRenderContext" />
               </node>
             </node>
@@ -9173,7 +9173,7 @@
                                   <node concept="37vLTw" id="1hdlKPe8QM8" role="2Oq$k0">
                                     <ref role="3cqZAo" node="1hdlKPe8QLV" resolve="object" />
                                   </node>
-                                  <node concept="2OwXpG" id="1hdlKPe8QM9" role="2OqNvi">
+                                  <node concept="2OwXpG" id="193Tld4da_w" role="2OqNvi">
                                     <ref role="2Oxat5" to="ng30:~Context.element" resolve="element" />
                                   </node>
                                 </node>

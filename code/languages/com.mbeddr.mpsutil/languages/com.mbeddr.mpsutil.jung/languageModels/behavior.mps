@@ -10,7 +10,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="hbme" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.util(com.mbeddr.mpsutil.jung.pluginSolution/)" />
+    <import index="hbme" ref="a87a3dd9-70ef-44b2-8564-d62eacb82f99/java:edu.uci.ics.jung.visualization.util(com.mbeddr.mpsutil.jung.stubs/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="10jo" ref="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62/r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung/com.mbeddr.mpsutil.jung.structure)" implicit="true" />
   </imports>
@@ -4336,9 +4336,9 @@
         <node concept="3clFbF" id="13o1gUiQMH0" role="3cqZAp">
           <node concept="2OqwBi" id="13o1gUiQSMx" role="3clFbG">
             <node concept="2ShNRf" id="13o1gUiQMGY" role="2Oq$k0">
-              <node concept="1pGfFk" id="13o1gUiQSf2" role="2ShVmc">
+              <node concept="1pGfFk" id="2hQhSfncOBK" role="2ShVmc">
                 <ref role="37wK5l" to="hbme:~VertexShapeFactory.&lt;init&gt;()" resolve="VertexShapeFactory" />
-                <node concept="3uibUv" id="13o1gUiQSJt" role="1pMfVU">
+                <node concept="3uibUv" id="2hQhSfncOBL" role="1pMfVU">
                   <ref role="3uigEE" node="5yCuRHcav6I" resolve="JNNode" />
                 </node>
               </node>

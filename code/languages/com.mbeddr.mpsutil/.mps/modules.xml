@@ -64,6 +64,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.json/com.mbeddr.mpsutil.json.mpl" folder="rest.json" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.jung/com.mbeddr.mpsutil.jung.mpl" folder="rest.jung" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.jung/solutions/pluginSolution/com.mbeddr.mpsutil.jung.pluginSolution.msd" folder="rest.jung" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.jung/solutions/stubs/com.mbeddr.mpsutil.jung.stubs.msd" folder="rest.jung" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.lang.plugin.extensions/com.mbeddr.mpsutil.lang.plugin.extensions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.langstats/langstats.mpl" folder="rest" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.lantest.assertions/com.mbeddr.mpsutil.lantest.assertions.mpl" folder="rest.lantest" />
